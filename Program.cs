@@ -10,16 +10,16 @@
 //     }
 // }
 
-// public class HelloWorld{
-//     public static void Main(string[] args) {
-//         using StreamReader reader = new StreamReader("notes.txt");
-//         string contents = reader.ReadToEnd();
-//         Console.WriteLine(contents);
-//     }
-// }
-
-public class Main {
-    public static void main(string[] args) {
-        
+public class HelloWorld{
+    public static void Main(string[] args) {
+        using StreamReader reader = new StreamReader("notes.txt");
+        string contents = reader.ReadToEnd();
+        Console.WriteLine(contents);
     }
 }
+
+// public class Main {
+//     public static void main(string[] args) {
+        
+//     }
+// }
